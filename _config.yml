@@ -17,4 +17,4 @@ github_username:  bcchap
 #google-analytics:
 #  id: ""
 
-exclude: ['package.json', 'node_modules']
+exclude: ['package.json', src, 'node_modules']
