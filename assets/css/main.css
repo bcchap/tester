@@ -2679,7 +2679,7 @@ sup, sub {
     top: 0; } }
 
 #particles-js {
-  background: linear-gradient(#D7759A, #78C5AF);
+  background: linear-gradient(#D7759A, #FFBD59);
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -2748,10 +2748,10 @@ sup, sub {
     border: 2px solid #FFF;
     transition: all .7s; }
     .header-icons .icon:hover {
-      color: linear-gradient(#D7759A, #78C5AF);
+      color: linear-gradient(#D7759A, #FFBD59);
       background: #FFF; }
     .header-icons .icon:active {
-      color: linear-gradient(#D7759A, #78C5AF);
+      color: linear-gradient(#D7759A, #FFBD59);
       background: #FFF; }
     @media only screen and (min-width: 550px) {
       .header-icons .icon {
@@ -2838,7 +2838,7 @@ sup, sub {
   .user-projects h5 {
     margin: 0; }
   .user-projects li {
-    color: linear-gradient(#D7759A, #78C5AF);
+    color: linear-gradient(#D7759A, #FFBD59);
     font-size: 1.1rem; }
   .user-projects p {
     margin-right: 5px; }
@@ -2876,9 +2876,9 @@ sup, sub {
   display: inline-block;
   margin: 10px 0px;
   padding: 5px;
-  color: linear-gradient(#D7759A, #78C5AF);
+  color: linear-gradient(#D7759A, #FFBD59);
   background-color: transparent;
-  border: 1px solid linear-gradient(#D7759A, #78C5AF);
+  border: 1px solid linear-gradient(#D7759A, #FFBD59);
   border-radius: 10px;
   text-align: center;
   outline: none;
@@ -2897,7 +2897,7 @@ sup, sub {
     transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in; }
 
 .footer {
-  background: #78C5AF;
+  background: #FFBD59;
   padding: 10px 0;
   margin-top: 100px;
   text-align: center;
