@@ -1,6 +1,6 @@
 #about {
   width: 90%;
-  margin: 0 auto;
+  margin: 30px auto;
   max-width: 960px;
   @media only screen and (min-width: $cut) {
     width: 80%;
@@ -8,12 +8,14 @@
 }
 
 .tech {
+  text-align: center;
+  font-size: 30px;
   margin: 15px;
 }
 
 .user {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -23,7 +25,7 @@
   }
   @media only screen and (min-width: $cut) {
     flex-wrap: nowrap;
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 

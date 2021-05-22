@@ -2679,7 +2679,7 @@ sup, sub {
     top: 0; } }
 
 #particles-js {
-  background: linear-gradient(#F081A3, #EDC78E);
+  background: linear-gradient(#D7759A, #78C5AF);
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -2748,10 +2748,10 @@ sup, sub {
     border: 2px solid #FFF;
     transition: all .7s; }
     .header-icons .icon:hover {
-      color: linear-gradient(#F081A3, #EDC78E);
+      color: linear-gradient(#D7759A, #78C5AF);
       background: #FFF; }
     .header-icons .icon:active {
-      color: linear-gradient(#F081A3, #EDC78E);
+      color: linear-gradient(#D7759A, #78C5AF);
       background: #FFF; }
     @media only screen and (min-width: 550px) {
       .header-icons .icon {
@@ -2783,24 +2783,26 @@ sup, sub {
     -webkit-animation: pulse 1.3s infinite;
     animation: pulse 1.3s infinite; }
     .down .icon:hover {
-      color: #7DCFB2; }
+      color: #EDC47D; }
     .down .icon:active {
-      color: #7DCFB2; }
+      color: #EDC47D; }
 
 #about {
   width: 90%;
-  margin: 0 auto;
+  margin: 30px auto;
   max-width: 960px; }
   @media only screen and (min-width: 550px) {
     #about {
       width: 80%; } }
 
 .tech {
+  text-align: center;
+  font-size: 30px;
   margin: 15px; }
 
 .user {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -2810,7 +2812,7 @@ sup, sub {
   @media only screen and (min-width: 550px) {
     .user {
       flex-wrap: nowrap;
-      font-size: 60px; } }
+      font-size: 50px; } }
 
 .user-details {
   text-align: center;
@@ -2836,7 +2838,7 @@ sup, sub {
   .user-projects h5 {
     margin: 0; }
   .user-projects li {
-    color: linear-gradient(#F081A3, #EDC78E);
+    color: linear-gradient(#D7759A, #78C5AF);
     font-size: 1.1rem; }
   .user-projects p {
     margin-right: 5px; }
@@ -2874,9 +2876,9 @@ sup, sub {
   display: inline-block;
   margin: 10px 0px;
   padding: 5px;
-  color: linear-gradient(#F081A3, #EDC78E);
+  color: linear-gradient(#D7759A, #78C5AF);
   background-color: transparent;
-  border: 1px solid linear-gradient(#F081A3, #EDC78E);
+  border: 1px solid linear-gradient(#D7759A, #78C5AF);
   border-radius: 10px;
   text-align: center;
   outline: none;
@@ -2895,7 +2897,7 @@ sup, sub {
     transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in; }
 
 .footer {
-  background: linear-gradient(#F081A3, #EDC78E);
+  background: #78C5AF;
   padding: 10px 0;
   margin-top: 100px;
   text-align: center;
@@ -2907,6 +2909,6 @@ sup, sub {
     margin: 0;
     color: #FFF; }
     .footer a:hover {
-      color: #7DCFB2; }
+      color: #EDC47D; }
     .footer a:active {
-      color: #7DCFB2; }
+      color: #EDC47D; }
