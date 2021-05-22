@@ -2679,7 +2679,7 @@ sup, sub {
     top: 0; } }
 
 #particles-js {
-  background: linear-gradient(#4b134f, #B24244);
+  background: linear-gradient(#71C5AC, #F6D98F);
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -2742,16 +2742,16 @@ sup, sub {
     width: 20px;
     height: 20px;
     font-size: 20px;
-    padding: 10px;
+    padding: 20px;
     margin: 20px;
     border-radius: 50%;
     border: 2px solid #FFF;
     transition: all .7s; }
     .header-icons .icon:hover {
-      color: linear-gradient(#4b134f, #B24244);
+      color: linear-gradient(#71C5AC, #F6D98F);
       background: #FFF; }
     .header-icons .icon:active {
-      color: linear-gradient(#4b134f, #B24244);
+      color: linear-gradient(#71C5AC, #F6D98F);
       background: #FFF; }
     @media only screen and (min-width: 550px) {
       .header-icons .icon {
@@ -2783,9 +2783,9 @@ sup, sub {
     -webkit-animation: pulse 1.3s infinite;
     animation: pulse 1.3s infinite; }
     .down .icon:hover {
-      color: #782849; }
+      color: #F081A3; }
     .down .icon:active {
-      color: #782849; }
+      color: #F081A3; }
 
 #about {
   width: 90%;
@@ -2836,7 +2836,7 @@ sup, sub {
   .user-projects h5 {
     margin: 0; }
   .user-projects li {
-    color: linear-gradient(#4b134f, #B24244);
+    color: linear-gradient(#71C5AC, #F6D98F);
     font-size: 1.1rem; }
   .user-projects p {
     margin-right: 5px; }
@@ -2874,9 +2874,9 @@ sup, sub {
   display: inline-block;
   margin: 10px 0px;
   padding: 5px;
-  color: linear-gradient(#4b134f, #B24244);
+  color: linear-gradient(#71C5AC, #F6D98F);
   background-color: transparent;
-  border: 1px solid linear-gradient(#4b134f, #B24244);
+  border: 1px solid linear-gradient(#71C5AC, #F6D98F);
   border-radius: 10px;
   text-align: center;
   outline: none;
@@ -2895,7 +2895,7 @@ sup, sub {
     transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in; }
 
 .footer {
-  background: linear-gradient(#4b134f, #B24244);
+  background: linear-gradient(#71C5AC, #F6D98F);
   padding: 10px 0;
   margin-top: 100px;
   text-align: center;
@@ -2907,6 +2907,6 @@ sup, sub {
     margin: 0;
     color: #FFF; }
     .footer a:hover {
-      color: #782849; }
+      color: #F081A3; }
     .footer a:active {
-      color: #782849; }
+      color: #F081A3; }
