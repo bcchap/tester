@@ -2705,7 +2705,7 @@ sup, sub {
   .header .site-title {
     font-size: 40px;
     display: block;
-    line-height: 2;
+    line-height: 1.2;
     color: #FFF;
     text-shadow: 3px 3px 0 rgba(255, 255, 255, 0.25); }
     @media only screen and (min-width: 550px) {
@@ -2715,7 +2715,7 @@ sup, sub {
   .header .site-description {
     font-size: 20px;
     display: block;
-    line-height: 2;
+    line-height: 1.2;
     color: #FFF;
     text-shadow: 3px 3px 0 rgba(255, 255, 255, 0.25);
     margin-top: 2px; }
