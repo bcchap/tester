@@ -29,7 +29,7 @@
     display: block;
     line-height: 1;
     color: #FFF;
-    text-shadow: 3px 3px 0 rgba(255,255,255, 0.7);
+    text-shadow: 3px 3px 0 rgba(255,255,255, 0.4);
     @media only screen and (min-width:$cut){
       margin: 0;
       font-size: 60px;
@@ -40,7 +40,7 @@
     display: block;
     line-height: 1;
     color: #FFF;
-    text-shadow: 3px 3px 0 rgba(255,255,255, 0.7);
+    text-shadow: 3px 3px 0 rgba(255,255,255, 0.4);
     margin-top: 2px;
     @media only screen and (min-width:$cut){
       font-size: 45px;
@@ -56,10 +56,10 @@
     font-size: 15px;
     margin: 10px;
     &:hover {
-      text-shadow: 2px 2px 0 rgba(255,255,255, 0.7);
+      text-shadow: 2px 2px 0 rgba(255,255,255, 0.4);
     }
     &:active {
-      text-shadow: 2px 2px 0 rgba(255,255,255, 0.7);
+      text-shadow: 2px 2px 0 rgba(255,255,255, 0.4);
     }
     @media only screen and (min-width:$cut){
       font-size: 25px;
