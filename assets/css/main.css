@@ -2710,7 +2710,7 @@ sup, sub {
     @media only screen and (min-width: 550px) {
       .header .site-title {
         margin: 0;
-        font-size: 60px; } }
+        font-size: 50px; } }
   .header .site-description {
     font-size: 20px;
     display: block;
@@ -2719,7 +2719,7 @@ sup, sub {
     margin-top: 10px; }
     @media only screen and (min-width: 550px) {
       .header .site-description {
-        font-size: 40px; } }
+        font-size: 20px; } }
 
 .header-links {
   margin: 10px; }
