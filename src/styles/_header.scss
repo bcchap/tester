@@ -29,6 +29,7 @@
     display: block;
     line-height: 1;
     color: #FFF;
+    text-shadow: 0 0 5px #FFF;
     @media only screen and (min-width:$cut){
       margin: 0;
       font-size: 60px;
