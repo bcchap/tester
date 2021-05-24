@@ -2703,11 +2703,11 @@ sup, sub {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
   .header .site-title {
-    font-size: 20px;
+    font-size: 40px;
     display: block;
-    line-height: 1;
+    line-height: 2;
     color: #FFF;
-    text-shadow: 3px 3px 0 rgba(255, 255, 255, 0.4); }
+    text-shadow: 3px 3px 0 rgba(255, 255, 255, 0.25); }
     @media only screen and (min-width: 550px) {
       .header .site-title {
         margin: 0;
@@ -2715,9 +2715,9 @@ sup, sub {
   .header .site-description {
     font-size: 20px;
     display: block;
-    line-height: 1;
+    line-height: 2;
     color: #FFF;
-    text-shadow: 3px 3px 0 rgba(255, 255, 255, 0.4);
+    text-shadow: 3px 3px 0 rgba(255, 255, 255, 0.25);
     margin-top: 2px; }
     @media only screen and (min-width: 550px) {
       .header .site-description {
@@ -2731,9 +2731,9 @@ sup, sub {
     font-size: 15px;
     margin: 10px; }
     .header-links .link:hover {
-      text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.4); }
+      text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.25); }
     .header-links .link:active {
-      text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.4); }
+      text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.25); }
     @media only screen and (min-width: 550px) {
       .header-links .link {
         font-size: 25px; } }
