@@ -20,14 +20,16 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 90%;
   margin: 0 auto;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   .site-title {
-    font-size: 50px;
+    font-size: 40px;
     display: block;
-    line-height: 1;
+    line-height: 1.2;
     color: #FFF;
+    text-shadow: 3px 3px 0 rgba(255,255,255, .25);
     @media only screen and (min-width:$cut){
       margin: 0;
       font-size: 60px;
@@ -36,11 +38,12 @@
   .site-description {
     font-size: 20px;
     display: block;
-    line-height: 1;
+    line-height: 1.2;
     color: #FFF;
-    margin-top: 10px;
+    text-shadow: 3px 3px 0 rgba(255,255,255, .25);
+    margin-top: 2px;
     @media only screen and (min-width:$cut){
-      font-size: 30px;
+      font-size: 45px;
     }
   }
 }
@@ -52,8 +55,14 @@
     text-decoration: none;
     font-size: 15px;
     margin: 10px;
+    &:hover {
+      text-shadow: 2px 2px 0 rgba(255,255,255, .25);
+    }
+    &:active {
+      text-shadow: 2px 2px 0 rgba(255,255,255, .25);
+    }
     @media only screen and (min-width:$cut){
-      font-size: 20px;
+      font-size: 25px;
     }
   }
 }
@@ -68,8 +77,8 @@
     width: 20px;
     height: 20px;
     font-size: 20px;
-    padding: 10px;
-    margin: 5px;
+    padding: 20px;
+    margin: 20px;
     border-radius: 50%;
     border: 2px solid #FFF;
     transition: all .7s;
@@ -92,12 +101,12 @@
 .down {
   color: #FFF;
   position: absolute;
-  bottom: 25px;
+  bottom: 5%;
   width: 100%;
   margin: 0 auto;
   display: block;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   cursor: pointer;
   .icon {
       position: absolute;
