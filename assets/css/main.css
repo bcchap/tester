@@ -2679,7 +2679,7 @@ sup, sub {
     top: 0; } }
 
 #particles-js {
-  background: linear-gradient(#E77799, #FFA07D);
+  background: linear-gradient(#8F5970, #F081A3);
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -2707,7 +2707,7 @@ sup, sub {
     display: block;
     line-height: 1;
     color: #FFF;
-    text-shadow: 0 0 10px #FFF; }
+    text-shadow: 3px 3px 0 rgba(255, 255, 255, 0.7); }
     @media only screen and (min-width: 550px) {
       .header .site-title {
         margin: 0;
@@ -2717,11 +2717,11 @@ sup, sub {
     display: block;
     line-height: 1;
     color: #FFF;
-    text-shadow: 0 0 10px #FFF;
-    margin-top: 10px; }
+    text-shadow: 3px 3px 0 rgba(255, 255, 255, 0.7);
+    margin-top: 2px; }
     @media only screen and (min-width: 550px) {
       .header .site-description {
-        font-size: 30px; } }
+        font-size: 45px; } }
 
 .header-links {
   margin: 10px; }
@@ -2731,9 +2731,9 @@ sup, sub {
     font-size: 15px;
     margin: 10px; }
     .header-links .link:hover {
-      text-shadow: 0 0 10px #FFF; }
+      text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.7); }
     .header-links .link:active {
-      text-shadow: 0 0 10px #FFF; }
+      text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.7); }
     @media only screen and (min-width: 550px) {
       .header-links .link {
         font-size: 25px; } }
@@ -2754,10 +2754,10 @@ sup, sub {
     border: 2px solid #FFF;
     transition: all .7s; }
     .header-icons .icon:hover {
-      color: linear-gradient(#E77799, #FFA07D);
+      color: linear-gradient(#8F5970, #F081A3);
       background: #FFF; }
     .header-icons .icon:active {
-      color: linear-gradient(#E77799, #FFA07D);
+      color: linear-gradient(#8F5970, #F081A3);
       background: #FFF; }
     @media only screen and (min-width: 550px) {
       .header-icons .icon {
@@ -2844,7 +2844,7 @@ sup, sub {
   .user-projects h5 {
     margin: 0; }
   .user-projects li {
-    color: linear-gradient(#E77799, #FFA07D);
+    color: linear-gradient(#8F5970, #F081A3);
     font-size: 1.1rem; }
   .user-projects p {
     margin-right: 5px; }
@@ -2882,9 +2882,9 @@ sup, sub {
   display: inline-block;
   margin: 10px 0px;
   padding: 5px;
-  color: linear-gradient(#E77799, #FFA07D);
+  color: linear-gradient(#8F5970, #F081A3);
   background-color: transparent;
-  border: 1px solid linear-gradient(#E77799, #FFA07D);
+  border: 1px solid linear-gradient(#8F5970, #F081A3);
   border-radius: 10px;
   text-align: center;
   outline: none;
@@ -2903,7 +2903,7 @@ sup, sub {
     transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in; }
 
 .footer {
-  background: #E77799;
+  background: #8F5970;
   padding: 10px 0;
   margin-top: 100px;
   text-align: center;
