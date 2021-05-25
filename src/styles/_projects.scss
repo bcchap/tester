@@ -50,6 +50,7 @@
   @media only screen and (min-width: $cut) {
     float: right;
     width: 48%;
+    margin-top: 20px;
   }
   img {
     @media only screen and (min-width: $cut) {
@@ -62,6 +63,7 @@
   @media only screen and (min-width: $cut) {
     float: left;
     width: 48%;
+    margin-top: 20px;
   }
   img {
     @media only screen and (min-width: $cut) {
@@ -74,18 +76,18 @@
   display: inline-block;
   margin: 10px 0px;
   padding: 5px;
-  color: $main;
+  color: $purple;
   background-color: transparent;
-  border: 1px solid $main;
+  border: 1px solid $purple;
   border-radius: 10px;
   text-align: center;
   outline: none;
   text-decoration: none;
   cursor: pointer;
   &:hover {
-    text-shadow: 2px 2px 0 rgba(120, 184, 172, .25);
+    text-shadow: 2px 2px 0 rgba(120, 184, 172, .75);
   }
   &:active {
-    text-shadow: 2px 2px 0 rgba(120, 184, 172, .25);
+    text-shadow: 2px 2px 0 rgba(120, 184, 172, .75);
   }
 }

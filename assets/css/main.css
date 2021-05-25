@@ -2789,9 +2789,9 @@ sup, sub {
     -webkit-animation: pulse 1.3s infinite;
     animation: pulse 1.3s infinite; }
     .down .icon:hover {
-      color: #EDC47D; }
+      color: #78B8AC; }
     .down .icon:active {
-      color: #EDC47D; }
+      color: #78B8AC; }
 
 #about {
   width: 90%;
@@ -2886,18 +2886,18 @@ sup, sub {
   display: inline-block;
   margin: 10px 0px;
   padding: 5px;
-  color: linear-gradient(#8F5970, #FF8686);
+  color: #78B8AC;
   background-color: transparent;
-  border: 1px solid linear-gradient(#8F5970, #FF8686);
+  border: 1px solid #78B8AC;
   border-radius: 10px;
   text-align: center;
   outline: none;
   text-decoration: none;
   cursor: pointer; }
   .project-link:hover {
-    text-shadow: 2px 2px 0 rgba(120, 184, 172, 0.25); }
+    text-shadow: 2px 2px 0 rgba(120, 184, 172, 0.75); }
   .project-link:active {
-    text-shadow: 2px 2px 0 rgba(120, 184, 172, 0.25); }
+    text-shadow: 2px 2px 0 rgba(120, 184, 172, 0.75); }
 
 .footer {
   background: #8F5970;
@@ -2912,6 +2912,6 @@ sup, sub {
     margin: 0;
     color: #FFF; }
     .footer a:hover {
-      color: #EDC47D; }
+      color: #78B8AC; }
     .footer a:active {
-      color: #EDC47D; }
+      color: #78B8AC; }
