@@ -83,9 +83,9 @@
   text-decoration: none;
   cursor: pointer;
   &:hover {
-    text-shadow: 2px 2px 0 rgba(120, 184, 172, .25);
+    text-shadow: 2px 2px 0 rgba(120, 184, 172, .1);
   }
   &:active {
-    text-shadow: 2px 2px 0 rgba(120, 184, 172, .25);
+    text-shadow: 2px 2px 0 rgba(120, 184, 172, .1);
   }
 }
