@@ -2852,14 +2852,17 @@ sup, sub {
 
 @media only screen and (min-width: 550px) {
   .contents {
-    margin-left: 0;
-    width: 48%; } }
+    float: left;
+    width: 48%;
+    margin: 0;
+    top: 50%; } }
 
 @media only screen and (min-width: 550px) {
   .contents-right {
     float: right;
-    margin-top: -5%;
-    width: 48%; } }
+    width: 48%;
+    margin: 0;
+    top: 50%; } }
 
 @media only screen and (min-width: 550px) {
   .images-right {
@@ -2890,12 +2893,11 @@ sup, sub {
   text-align: center;
   outline: none;
   text-decoration: none;
-  cursor: pointer;
-  transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out; }
+  cursor: pointer; }
   .project-link:hover {
-    text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.25); }
+    text-shadow: 2px 2px 0 rgba(120, 184, 172, 0.25); }
   .project-link:active {
-    text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.25); }
+    text-shadow: 2px 2px 0 rgba(120, 184, 172, 0.25); }
 
 .footer {
   background: #8F5970;

@@ -31,16 +31,19 @@
 
 .contents {
   @media only screen and (min-width: $cut) {
-    margin-left: 0;
+    float: left;
     width: 48%;
+    margin: 0;
+    top: 50%;
   }
 }
 
 .contents-right {
   @media only screen and (min-width: $cut) {
     float: right;
-    margin-top: -5%;
     width: 48%;
+    margin: 0;
+    top: 50%;
   }
 }
 .images-right {
@@ -79,13 +82,10 @@
   outline: none;
   text-decoration: none;
   cursor: pointer;
-  transition: color 0.3s ease-out,
-              background-color 0.3s ease-out,
-              border-color 0.3s ease-out;
   &:hover {
-    text-shadow: 2px 2px 0 rgba(255,255,255, .25);
+    text-shadow: 2px 2px 0 rgba(120, 184, 172, .25);
   }
   &:active {
-    text-shadow: 2px 2px 0 rgba(255,255,255, .25);
+    text-shadow: 2px 2px 0 rgba(120, 184, 172, .25);
   }
 }
