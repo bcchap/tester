@@ -2864,7 +2864,7 @@ sup, sub {
   .images-right {
     float: right;
     width: 48%;
-    margin-top: 15px; } }
+    margin-top: 50px; } }
 
 @media only screen and (min-width: 550px) {
   .images-right img {
@@ -2874,7 +2874,7 @@ sup, sub {
   .images-left {
     float: left;
     width: 48%;
-    margin-top: 15px; } }
+    margin-top: 50px; } }
 
 @media only screen and (min-width: 550px) {
   .images-left img {
