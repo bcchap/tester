@@ -34,6 +34,7 @@
     float: left;
     width: 48%;
     margin: 0;
+    top: 50%;
   }
 }
 
@@ -42,6 +43,7 @@
     float: right;
     width: 48%;
     margin: 0;
+    top: 50%;
   }
 }
 .images-right {
@@ -61,7 +63,7 @@
   @media only screen and (min-width: $cut) {
     float: left;
     width: 48%;
-    top: 50%;
+
   }
   img {
     @media only screen and (min-width: $cut) {
