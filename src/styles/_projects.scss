@@ -33,6 +33,7 @@
   @media only screen and (min-width: $cut) {
     float: left;
     width: 48%;
+    margin-top: -10%
   }
 }
 
@@ -40,13 +41,13 @@
   @media only screen and (min-width: $cut) {
     float: right;
     width: 48%;
+    margin-top: -10%
   }
 }
 .images-right {
   @media only screen and (min-width: $cut) {
     float: right;
     width: 48%;
-    vertical-align: text-bottom;
 
   }
   img {
@@ -60,7 +61,6 @@
   @media only screen and (min-width: $cut) {
     float: left;
     width: 48%;
-    vertical-align: baseline;
   }
   img {
     @media only screen and (min-width: $cut) {
