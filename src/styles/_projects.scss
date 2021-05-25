@@ -33,6 +33,7 @@
   @media only screen and (min-width: $cut) {
     float: left;
     width: 48%;
+    vertical-align: baseline;
   }
 }
 
@@ -40,6 +41,7 @@
   @media only screen and (min-width: $cut) {
     float: right;
     width: 48%;
+    vertical-align: baseline;
   }
 }
 .images-right {
