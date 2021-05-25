@@ -2853,20 +2853,18 @@ sup, sub {
 @media only screen and (min-width: 550px) {
   .contents-left {
     float: left;
-    width: 48%;
-    vertical-align: baseline; } }
+    width: 48%; } }
 
 @media only screen and (min-width: 550px) {
   .contents-right {
     float: right;
-    width: 48%;
-    vertical-align: baseline; } }
+    width: 48%; } }
 
 @media only screen and (min-width: 550px) {
   .images-right {
     float: right;
     width: 48%;
-    vertical-align: baseline; } }
+    vertical-align: text-bottom; } }
 
 @media only screen and (min-width: 550px) {
   .images-right img {
