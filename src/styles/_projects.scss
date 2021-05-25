@@ -34,7 +34,6 @@
     float: left;
     width: 48%;
     margin: 0;
-    top: 50%;
   }
 }
 
@@ -43,14 +42,12 @@
     float: right;
     width: 48%;
     margin: 0;
-    top: 50%;
   }
 }
 .images-right {
   @media only screen and (min-width: $cut) {
     float: right;
     width: 48%;
-    margin-top: 20px;
   }
   img {
     @media only screen and (min-width: $cut) {
@@ -63,7 +60,6 @@
   @media only screen and (min-width: $cut) {
     float: left;
     width: 48%;
-    margin-top: 20px;
   }
   img {
     @media only screen and (min-width: $cut) {
@@ -85,9 +81,9 @@
   text-decoration: none;
   cursor: pointer;
   &:hover {
-    text-shadow: 2px 2px 0 rgba(120, 184, 172, .75);
+    text-shadow: 2px 2px 0 rgba(120, 184, 172, .25);
   }
   &:active {
-    text-shadow: 2px 2px 0 rgba(120, 184, 172, .75);
+    text-shadow: 2px 2px 0 rgba(120, 184, 172, .25);
   }
 }
