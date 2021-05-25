@@ -2853,19 +2853,18 @@ sup, sub {
 @media only screen and (min-width: 550px) {
   .contents-left {
     float: left;
-    width: 48%;
-    margin-top: -10%; } }
+    width: 48%; } }
 
 @media only screen and (min-width: 550px) {
   .contents-right {
     float: right;
-    width: 48%;
-    margin-top: -10%; } }
+    width: 48%; } }
 
 @media only screen and (min-width: 550px) {
   .images-right {
     float: right;
-    width: 48%; } }
+    width: 48%;
+    margin-top: 15px; } }
 
 @media only screen and (min-width: 550px) {
   .images-right img {
@@ -2874,7 +2873,8 @@ sup, sub {
 @media only screen and (min-width: 550px) {
   .images-left {
     float: left;
-    width: 48%; } }
+    width: 48%;
+    margin-top: 15px; } }
 
 @media only screen and (min-width: 550px) {
   .images-left img {
