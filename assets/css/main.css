@@ -2796,7 +2796,7 @@ sup, sub {
 #about {
   width: 90%;
   margin: 30px auto;
-  margin-top: 10em;
+  margin-top: 0px;
   max-width: 960px; }
   @media only screen and (min-width: 550px) {
     #about {
@@ -2851,23 +2851,22 @@ sup, sub {
     margin-right: 5px; }
 
 @media only screen and (min-width: 550px) {
-  .contents {
+  .contents-left {
     float: left;
     width: 48%;
-    margin: 0;
-    top: 50%; } }
+    vertical-align: baseline; } }
 
 @media only screen and (min-width: 550px) {
   .contents-right {
     float: right;
     width: 48%;
-    margin: 0;
-    top: 50%; } }
+    vertical-align: baseline; } }
 
 @media only screen and (min-width: 550px) {
   .images-right {
     float: right;
-    width: 48%; } }
+    width: 48%;
+    vertical-align: baseline; } }
 
 @media only screen and (min-width: 550px) {
   .images-right img {
@@ -2876,7 +2875,8 @@ sup, sub {
 @media only screen and (min-width: 550px) {
   .images-left {
     float: left;
-    width: 48%; } }
+    width: 48%;
+    vertical-align: baseline; } }
 
 @media only screen and (min-width: 550px) {
   .images-left img {
@@ -2895,9 +2895,9 @@ sup, sub {
   text-decoration: none;
   cursor: pointer; }
   .project-link:hover {
-    text-shadow: 2px 2px 0 rgba(120, 184, 172, 0.75); }
+    text-shadow: 1px 1px 0 rgba(120, 184, 172, 0.025); }
   .project-link:active {
-    text-shadow: 2px 2px 0 rgba(120, 184, 172, 0.75); }
+    text-shadow: 1px 1px 0 rgba(120, 184, 172, 0.025); }
 
 .footer {
   background: #8F5970;
